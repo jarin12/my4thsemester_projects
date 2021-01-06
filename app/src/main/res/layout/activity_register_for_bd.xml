@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterForDriver"
+    android:background="@drawable/fush"
+    android:scrollbars="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etNameBd"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="Full Name"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/etMobileBd"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="Mobile number"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/etLocationBd"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="Set location"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/etBgBd"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:entries="@array/spinnerItems"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/etPassBd"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="New Password"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/etCpassBd"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="Confirm password"
+            android:textSize="20dp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        </ScrollView>
+
+
+
+        <CheckBox
+            android:id="@+id/cvRegBd"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="I accept all terms and conditions"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvRegBd"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="Registration"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvLoginBd"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:hint="Login"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.194"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.955" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
